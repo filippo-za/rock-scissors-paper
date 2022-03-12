@@ -1,0 +1,111 @@
+.container_match {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.you_picked {
+  text-align: center;
+  margin-right: 80px;
+}
+
+.you_picked_text {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container_who_win {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 13px 40px;
+  border-radius: 8px;
+  border: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  color: rgb(228, 55, 55);
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.computer_picked {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.computer_picked_text {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+}
+
+.icons {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin-top: 35px;
+}
+
+.timer {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  margin-top: 35px;
+  padding: 30px;
+  font-size: 80px;
+  color: #fff;
+  background-color: hsl(229, 25%, 31%);
+}
+
+.choices_paper {
+  background-image: url("../../images/icon-paper.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: 15px solid hsl(230, 89%, 62%);
+}
+
+.choices_scissors {
+  background-image: url("../../images/icon-scissors.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 15px solid hsl(39, 89%, 49%);
+  background-color: #fff;
+}
+
+.choices_rock {
+  background-image: url("../../images/icon-rock.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 15px solid hsl(349, 71%, 52%);
+  background-color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .computer_picked {
+    margin-left: -70px;
+  }
+  .container_who_win {
+    transform: translateY(160px) translateX(80px);
+    position: absolute;
+    margin-top: 50px;
+  }
+}

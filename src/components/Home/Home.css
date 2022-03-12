@@ -1,0 +1,62 @@
+.container_home {
+  display: flex;
+  justify-content: center;
+}
+
+.img_triangle {
+  max-width: 200px;
+  margin-top: 100px;
+  position: absolute;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.choice_paper {
+  background-image: url("../../images/icon-paper.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
+  border: 15px solid hsl(230, 89%, 62%);
+  transform: translateY(35px) translateX(20px);
+}
+
+.choice_paper:hover {
+  transform: scale(1.1) translateY(35px) translateX(20px);
+}
+
+.choice_scissors {
+  background-image: url("../../images/icon-scissors.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 15px solid hsl(39, 89%, 49%);
+  background-color: #fff;
+  transform: translateY(190px);
+}
+
+.choice_scissors:hover {
+  transform: scale(1.1) translateY(165px);
+}
+
+.choice_rock {
+  background-image: url("../../images/icon-rock.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 15px solid hsl(349, 71%, 52%);
+  background-color: #fff;
+  transform: translateX(-20px) translateY(35px);
+}
+
+.choice_rock:hover {
+  transform: scale(1.1) translateX(-20px) translateY(35px);
+}

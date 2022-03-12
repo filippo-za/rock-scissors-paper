@@ -1,0 +1,23 @@
+.container_rules {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.btn_rules {
+  border: 2px solid #fff;
+  background-color: hsl(214, 47%, 23%);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 30px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
